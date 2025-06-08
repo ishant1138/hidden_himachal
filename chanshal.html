@@ -1,0 +1,229 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chanshal Pass - Highest Peak in Shimla</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="stylesheet" href="chanshal.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <header>
+      <nav>
+        <a href="index.html" class="logo">
+          <i class="fas fa-mountain"></i>
+          Himachal Explorer
+        </a>
+        <ul class="nav-links">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#destinations">Routes</a></li>
+          <li><a href="#contact">Contact</a></li>
+          <li><a href="#" class="book-now">Book Now</a></li>
+        </ul>
+        <div class="mobile-menu">
+          <i class="fas fa-bars"></i>
+        </div>
+      </nav>
+    </header>
+
+    <section class="hero">
+      <div class="hero-background">
+        <div class="overlay"></div>
+      </div>
+      <div class="hero-content">
+        <h1>Discover Chanshal</h1>
+        <p>
+          Experience the thrill of India's highest ski slope and the beauty of
+          the Himalayas
+        </p>
+        <div class="hero-buttons">
+          <a href="#destinations" class="btn btn-primary">Explore Now</a>
+          <a href="#contact" class="btn btn-secondary">Book Your Trip</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="about" class="destinations">
+      <h2>About Chanshal Pass</h2>
+      <div class="section-description">
+        <p>
+          Chanshal Pass, also known as Chanshal Valley, links Dodra Kwar and
+          Rohru (Chirgaon) in the Shimla district of Himachal Pradesh. The pass
+          sits atop Chanshal Peak, which is the highest peak in the Shimla
+          district. Open from May to November, this majestic pass remains
+          snow-covered for the rest of the year.
+        </p>
+      </div>
+
+      <div class="destination-grid">
+        <div class="destination-card">
+          <img
+            src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800"
+            alt="Chanshal Peak"
+          />
+          <div class="destination-info">
+            <h3>Chanshal Peak</h3>
+            <p>The highest peak in Shimla district offering panoramic views</p>
+            <ul>
+              <li>
+                <i class="fas fa-mountain"></i> Elevation: 4,520m (14,830 ft)
+              </li>
+              <li>
+                <i class="fas fa-map-marker-alt"></i> Location: Shimla District
+              </li>
+              <li><i class="fas fa-clock"></i> Best Time: May-November</li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <img
+            src="https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800"
+            alt="Dodra Kwar Route"
+          />
+          <div class="destination-info">
+            <h3>Dodra Kwar Route</h3>
+            <p>The scenic route connecting Rohru to Dodra Kwar</p>
+            <ul>
+              <li><i class="fas fa-road"></i> Distance: 180 km from Shimla</li>
+              <li><i class="fas fa-bus"></i> Limited Bus Service Available</li>
+              <li>
+                <i class="fas fa-calendar-alt"></i> Accessible: May-November
+              </li>
+            </ul>
+          </div>
+        </div>
+
+        <div class="destination-card">
+          <img
+            src="https://images.unsplash.com/photo-1506461883276-594a12b11cf3?w=800"
+            alt="Chanshal Valley"
+          />
+          <div class="destination-info">
+            <h3>Chanshal Valley</h3>
+            <p>A paradise for snow lovers and adventure enthusiasts</p>
+            <ul>
+              <li>
+                <i class="fas fa-hiking"></i> Activities: Trekking, Photography
+              </li>
+              <li>
+                <i class="fas fa-temperature-low"></i> Snow Season: Dec-April
+              </li>
+              <li><i class="fas fa-mountain"></i> Peak Height: 17,000 ft</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section class="trek-section">
+      <div class="trek-content">
+        <div class="trek-image">
+          <img
+            src="https://images.unsplash.com/photo-1626621341517-bbf3d9990a23?w=800"
+            alt="Chanshal Pass Trek"
+          />
+        </div>
+        <div class="trek-details">
+          <h3>Routes to Chanshal Pass</h3>
+          <p>Two main routes connect Shimla to Chanshal Valley:</p>
+          <ul>
+            <li>
+              <i class="fas fa-route"></i> Route 1:
+              Shimla-Theog-Kotkhai-Kharapathar-Hatkoti-Rohru-Larot-Valley (160
+              km)
+            </li>
+            <li>
+              <i class="fas fa-route"></i> Route 2:
+              Shimla-Theog-Narkanda-Sungri-Rohru-Larot-Valley (175 km)
+            </li>
+            <li><i class="fas fa-bus"></i> Regular bus service from Rohru</li>
+            <li><i class="fas fa-road"></i> Well-maintained seasonal road</li>
+            <li><i class="fas fa-mountain"></i> Stunning Himalayan views</li>
+          </ul>
+          <button class="trek-btn">Plan Your Trip</button>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <h2>Plan Your Chanshal Pass Adventure</h2>
+      <form class="contact-form">
+        <input type="text" placeholder="Your Name" required />
+        <input type="email" placeholder="Your Email" required />
+        <select required>
+          <option value="">Select Route</option>
+          <option value="route1">Via Kotkhai-Kharapathar</option>
+          <option value="route2">Via Narkanda-Sungri</option>
+          <option value="custom">Custom Route</option>
+        </select>
+        <textarea placeholder="Your Message" required></textarea>
+        <button type="submit" class="submit-btn">Send Message</button>
+      </form>
+    </section>
+
+    <footer>
+      <div class="footer-content">
+        <div class="footer-section">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="#about">About Chanshal</a></li>
+            <li><a href="#destinations">Routes</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Popular Routes</h3>
+          <ul>
+            <li><a href="#">Via Kotkhai</a></li>
+            <li><a href="#">Via Narkanda</a></li>
+            <li><a href="dodra-kwar.html">Dodra Kwar</a></li>
+          </ul>
+        </div>
+        <div class="footer-section">
+          <h3>Contact Info</h3>
+          <ul>
+            <li><i class="fas fa-phone"></i> +91 1234567890</li>
+            <li><i class="fas fa-envelope"></i> info@himachalexplorer.com</li>
+            <li>
+              <i class="fas fa-map-marker-alt"></i> Shimla, Himachal Pradesh
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-bottom">
+        <p>&copy; 2024 Himachal Explorer. All rights reserved.</p>
+      </div>
+    </footer>
+
+    <script src="script.js"></script>
+    <script src="chanshal.js"></script>
+    <script>
+      const heroImages = [
+        "https://images.unsplash.com/photo-1542051841857-5f90071e7989?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1483729558449-99ef09a8c325?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+        "https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?ixlib=rb-4.0.3&auto=format&fit=crop&w=2070&q=80",
+      ];
+
+      let currentImageIndex = 0;
+      const heroBackground = document.querySelector(".hero-background");
+
+      function changeBackgroundImage() {
+        heroBackground.style.backgroundImage = `url('${heroImages[currentImageIndex]}')`;
+        currentImageIndex = (currentImageIndex + 1) % heroImages.length;
+      }
+
+      // Set initial image
+      changeBackgroundImage();
+
+      // Change image every 2 seconds
+      setInterval(changeBackgroundImage, 2000);
+    </script>
+  </body>
+</html>
